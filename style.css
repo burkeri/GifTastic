@@ -1,0 +1,76 @@
+/* Full Page */
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-image: url(http://img.myconfinedspace.com/wp-content/uploads/2015/03/Disney-Castle.png);
+    background-size: cover;
+    font-family: 'Niramit';
+    color: white;
+}
+
+/* Layout */
+
+.container {
+    padding: 60px 0px 60px 0px;
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+/* Card */
+
+#left-wrapper, #right-wrapper {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#card-body-style {
+    width: 100%;
+    height: 100%;
+}
+
+/* Buttons */
+
+label {
+    font-size: 18px;
+}
+
+button {
+    background-color: #2D109B;
+    color: white;
+}
+
+button:hover {
+    opacity: .5;
+}
+
+/* Form */
+
+#input {
+    background-color: #2D109B;
+    color: white;
+    border: none;
+}
+
+#input:focus {
+    outline: none;
+}
+
+/* GIFs */
+
+#right-wrapper {
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+#column1, #column2, #column3 {
+    height: 100%;
+}
+
+#column1 img, #column2 img, #column3 img {
+    margin-bottom: 10px;
+}
